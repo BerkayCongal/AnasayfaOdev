@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+
+main {
+    background-image: url("../css/img/Image.png");
+    height: 100vh;
+    text-align: center;
+}
+
+
+.kapsayici {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 45px ;
+    
+   
+}
+
+.logo {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+
+.yonlendirici {
+    display: flex;
+    color: white;
+   list-style: none;
+   gap: 50px;
+}
+
+
+.ıconlar {
+    display: flex;
+    gap: 24px;
+}
+
+
+.buyukYazı {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 37px;
+    padding-top: 255px;
+
+}
+
+.kucukYazı {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.button {
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 32px;
+    background: #094BAC;
+    border-radius: 32px;
+    text-decoration: none;
+    width: 250px;
+   height: 63px;
+    margin: 0 auto;
+    padding: 16px 48px;
+    gap: 16px;
+
+}
